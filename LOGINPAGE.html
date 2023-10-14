@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .fieldset
+        {
+            width: 350px;
+            margin: auto;
+            margin-top: 200px;
+            border-radius: 20px;
+            padding: 20px;
+            
+        }
+        .login
+        {
+            font-size: 18px;
+            padding: 10px;
+            text-align: left;
+            margin-top: 20px;
+            color: white;
+        }
+        .name{
+            border-radius: 10px;
+            padding: 8px;
+            width: 300px;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .check
+        {
+            justify-content:space-evenly;
+            text-align: center;
+            width: 300px;
+            font-size: 18px;
+        }
+        .body
+        {
+            background-image: url("gradient-network-connection-background_23-2148865393.avif");
+            background-size: cover;
+        }
+      
+    </style>
+</head>
+<body class="body">
+    <form method="post">
+    <fieldset class="fieldset">
+    <div class="login">
+            <div>
+            <label>Username</label><br>
+            <input type="email" placeholder="Enter a Username" class="name"> <br><br>
+            </div>
+            <div>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter a password" class="name"><br><br>
+            </div>
+            <div>
+                <label>Confirm Password</label><br>
+                <input type="password" placeholder="Confirm Password" class="name"><br><br>
+            </div>
+            <div class="check">
+                
+                <a href="#" style="font-size: medium; color: white;">Forgetten password?</a>
+            </div>
+            <br>
+            <div>
+                <button style="width: 325px;padding: 8px;color:white; border-radius: 20px;background-color: transparent;cursor: pointer;">SignIn</button><br>
+                <br><button style="width: 325px;padding: 8px;color:white; border-radius: 20px;background-color: transparent;cursor: pointer;">Create a Account</button>
+            </div>
+                
+        </div>
+    
+    </fieldset>
+    </form>
+</body>
+</html>
